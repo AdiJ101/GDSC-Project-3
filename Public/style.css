@@ -1,0 +1,141 @@
+body {
+  background-size: cover;
+  background-image: url(../assets/pexels-jakub-novacek-924824.jpg);
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 5rem;
+  color: white;
+}
+
+h2 {
+  padding: 20px;
+  color: white;
+}
+
+body > ul {
+  list-style-type: none;
+  color: white;
+}
+
+li {
+  margin: 10px;
+}
+
+li > a {
+  color: black;
+  text-decoration: none;
+  color: white;
+}
+
+.My-photo {
+  width: 15%;
+  padding-left: 20px;
+}
+
+.My-photo > img {
+  float: left;
+  padding: 2%;
+  border: 5px solid white;
+}
+
+.My-profile {
+  margin-left: 10%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.My-profile > ul {
+  list-style-type: none;
+  color: white;
+}
+
+.Contact-Me {
+  clear: both;
+  color: white;
+}
+
+.About-Me {
+  display: block;
+  color: white;
+}
+
+.rule {
+  display: block;
+}
+
+.grid-img {
+  display: grid;
+  gap: 0.5%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  color: white;
+}
+
+.grid-img img {
+  height: 200px;
+  object-fit: cover;
+}
+
+body {
+  margin-top: 20px;
+  color: white;
+}
+
+.time-table,
+tr,
+td {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.Time-Day {
+  height: 4rem;
+  background-color: black;
+  color: aliceblue;
+}
+
+.time-table > tr {
+  height: 2rem;
+}
+
+.Monday,
+.Tuesday,
+.Wednesday,
+.Thursday,
+.Friday {
+  width: 20%;
+}
+
+.time-table {
+  margin-bottom: 5px;
+}
+
+.foot {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .My-photo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 20px;
+    margin-left: 10px;
+  }
+
+  .My-photo > img {
+    width: 30%;
+  }
+
+  .My-profile {
+    margin-top: 2vh;
+    clear: both;
+  }
+}

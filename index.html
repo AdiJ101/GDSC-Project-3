@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <style>
+      body {
+        color: white;
+      }
+
+      h1 {
+        margin-top: 50px;
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+      }
+
+      .ola-amigos {
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        font-family: "Libre Baskerville", serif;
+      }
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Preahvihear&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./Public/style.css" />
+  </head>
+  <body>
+    <h1 class="ola-amigos">¡Ola-Amigos!</h1>
+    <br /><br />
+
+    <h2>About Website:</h2>
+    <ul>
+      <li>
+        This website is part of Project-1 of "Web Dev Basics and Applications" -
+        GDSC IITK Winter Project.
+      </li>
+      <li></li>
+      <li>
+        There are four sections in this website:
+        <ul>
+          <li><a href="#">Section 1: </a> Introduction</li>
+          <li><a href="#">Section 2:</a> A Simple Form</li>
+          <li><a href="#">Section 3:</a> Image Grid</li>
+          <li>
+            <a href="#">Section 4:</a> Previous semester course time table
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>About Me :</h2>
+
+    <div class="About-Me">
+      <div class="My-photo">
+        <img src="./assets/Dalle img.jpg" class="img-fluid" alt="Photo" />
+      </div>
+      <div class="My-profile">
+        <p>
+          Hey there, I am Aditya. Currently a second year undergraduate at IIT
+          Kanpur.
+        </p>
+        <h5>More about me:</h5>
+        <ul>
+          <li>Roll No: 220470</li>
+          <li>Web-mail: <a href="#"> jagdale22@iiitk.ac.in</a></li>
+          <li>Discord:</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="rule"><hr /></div>
+
+    <h2 class="Contact-Me">Contact Me</h2>
+    <br />
+
+    <div class="container">
+      <p>Enter your details:</p>
+      <div class="row g-3">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            aria-label="First name"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+        </div>
+      </div>
+
+      <br />
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label"
+            >Assistance required for</label
+          >
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck"> Emergency </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <hr />
+
+    <h2>Image Grid</h2>
+
+    <div class="container">
+      <p>(P.S. - Click the images to go on their parent website)</p>
+      <div class="grid-img">
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/photo-of-paint-splatter-artwork-1000366/"
+            ><img
+              src="./assets/Pics/Pic1.jpg"
+              alt="Photo of Paint Splatter Artwork
+            "
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.1 - Photo of Paint Splatter Artwork</figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/gray-background-with-splattered-water-drops-4194850/"
+            ><img
+              src="./assets/Pics/Pic2.jpg"
+              alt="Gray background with splattered water drops
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.2 - Gray background with splattered water drops .
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/official-currency-united-states-of-america-4386404/"
+            ><img
+              src="./assets/Pics/Pic3.jpg"
+              alt="Official currency United States of America"
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.3 - Official currency United States of America.
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/abstract-background-of-bright-paints-5603660/"
+            ><img
+              src="./assets/Pics/Pic4.jpg"
+              alt="Abstract background of bright paints
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.4 - Abstract background of bright paints .
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/snow-coated-rocky-mountains-772803/"
+            ><img
+              src="./assets/Pics/Pic5.jpg"
+              alt="Snow-coated Rocky Mountains
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.5 - Snow-coated Rocky Mountains .</figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/mountain-covered-by-snow-2189696/"
+            ><img
+              src="./assets/Pics/Pic6.jpg"
+              alt="Mountain Covered by Snow
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.6 - Mountain Covered by Snow</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.pexels.com/photo/green-leaf-446462/"
+            ><img
+              src="./assets/Pics/Pic7.jpg"
+              alt="Green Leaf
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.7 - Green Leaf .</figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/person-holding-world-globe-facing-mountain-346885/"
+            ><img
+              src="./assets/Pics/Pic8.jpg"
+              alt="Person Holding World Globe Facing Mountain
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.8 - Person Holding World Globe Facing Mountain .
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/selective-focus-photography-of-yellow-school-bus-die-cast-386009/"
+            ><img
+              src="./assets/Pics/Pic9.jpg"
+              alt="Selective Focus Photography of Yellow School Bus Die-cast
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.9 - Selective Focus Photography of Yellow School Bus Die-cast .
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/silhouette-photo-of-person-near-body-of-water-762527/"
+            ><img
+              src="./assets/Pics/Pic10.jpg"
+              alt="Silhouette Photo of Person Near Body of Water
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.10 - Silhouette Photo of Person Near Body of Water .
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/shallow-focus-photography-of-macbook-792199/"
+            ><img
+              src="./assets/Pics/Pic11.jpg"
+              alt="Shallow Focus Photography of Macbook
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.11 - Shallow Focus Photography of Macbook .
+          </figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://www.pexels.com/photo/black-and-gray-motherboard-2582937/"
+            ><img
+              src="./assets/Pics/Pic12.jpg"
+              alt="Black and Gray Motherboard
+          "
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.12 - Black and Gray Motherboard</figcaption>
+        </figure>
+
+        <figure>
+          <a
+            href="https://all-free-download.com/free-photos/download/elephant-nature-park_514325.html"
+            ><img
+              src="./assets/Pics/Pic13.jpg"
+              alt="Elephant nature park"
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.13 - Elephant nature park.</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.pexels.com/"
+            ><img
+              src="./assets/Pics/Pic14.jpg"
+              alt="AI generated image"
+              style="width: 100%"
+          /></a>
+          <figcaption>Fig.14 - AI generated image.</figcaption>
+        </figure>
+        <figure>
+          <a
+            href="https://community.nasdaq.com/uploadedimages/author/bbrooks/technology01-adobe.jpg"
+            ><img
+              src="./assets/Pics/Pic15.jpg"
+              alt="An Idea For The Awesome AI Investment Theme "
+              style="width: 100%"
+          /></a>
+          <figcaption>
+            Fig.15 - An Idea For The Awesome AI Investment Theme .
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Timetable</h2>
+
+    <div class="container">
+      <table class="time-table">
+        <tr class="Time-Day">
+          <td class="time">Time/Day</td>
+          <td class="Monday">Monday</td>
+          <td class="Tuesday">Tuesday</td>
+          <td class="Wednesday">Wednesday</td>
+          <td class="Thursday">Thursday</td>
+          <td class="Friday">Friday</td>
+        </tr>
+        <tr class="8am">
+          <td class="time">8am</td>
+          <td class="Monday">Lec-ESC201</td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday">Lec-ESC201</td>
+          <td class="Thursday">Lec-ESC201</td>
+          <td class="Friday">Lec-ESC201</td>
+        </tr>
+        <tr class="9am">
+          <td class="time">9am</td>
+          <td class="Monday">Lec-ESO213</td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday">Lec-ESO213</td>
+          <td class="Thursday"></td>
+          <td class="Friday">Lec-ESO213</td>
+        </tr>
+        <tr class="10am">
+          <td class="time">10am</td>
+          <td class="Monday">Lec-ESO207</td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday">Lec-ESO207</td>
+          <td class="Thursday"></td>
+          <td class="Friday">Lec-ESO207</td>
+        </tr>
+        <tr class="11am">
+          <td class="time">11am</td>
+          <td class="Monday"></td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday"></td>
+          <td class="Thursday"></td>
+          <td class="Friday"></td>
+        </tr>
+        <tr class="12am">
+          <td class="time">12am</td>
+          <td class="Monday">Lec-CS201</td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday">Lec-CS201</td>
+          <td class="Thursday"></td>
+          <td class="Friday">Lec-CS201</td>
+        </tr>
+        <tr class="1pm">
+          <td class="time">1pm</td>
+          <td class="Monday"></td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday"></td>
+          <td class="Thursday"></td>
+          <td class="Friday"></td>
+        </tr>
+        <tr class="2pm">
+          <td class="time">2am-5pm</td>
+          <td class="Monday"></td>
+          <td class="Tuesday"></td>
+          <td class="Wednesday"></td>
+          <td class="Thursday">Prc-ESC201</td>
+          <td class="Friday"></td>
+        </tr>
+      </table>
+    </div>
+
+    <hr />
+
+    <div class="foot">
+      <p>
+        Note: Backend is under construction.
+        <br />
+        (It will be completed when owner learns Backend Dev and java stuff ;))
+      </p>
+      <footer>©2023 Aditya Jagdale</footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
